@@ -3,11 +3,11 @@
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="NationalParks.xsd">
 
-    <NationalPark Rating="4.8" NearestAirport="Miami International Airport (MIA)">
+    <NationalPark Rating="4.8">
         <Name>Everglades National Park</Name>
         <Phone>305-242-7700</Phone>
         <Phone>786-758-0635</Phone>
-        <Address>
+        <Address NearestAirport="Miami International Airport (MIA)">
             <Number>40001</Number>
             <Street>State Road 9336</Street>
             <City>Homestead</City>
@@ -16,10 +16,10 @@
         </Address>
     </NationalPark>
 
-    <NationalPark Rating="4.7" NearestAirport="Miami International Airport (MIA)">
+    <NationalPark Rating="4.7">
         <Name>Biscayne National Park</Name>
         <Phone>786-335-3620</Phone>
-        <Address>
+        <Address NearestAirport="Miami International Airport (MIA)">
             <Number>9700</Number>
             <Street>SW 328th Street, Sir Lancelot Jones Way</Street>
             <City>Homestead</City>
@@ -28,10 +28,10 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="Key West International Airport (EYW)">
+    <NationalPark>
         <Name>Dry Tortugas National Park</Name>
         <Phone>305-242-7700</Phone>
-        <Address>
+        <Address NearestAirport="Key West International Airport (EYW)">
             <Number>40001</Number>
             <Street>State Road 9336</Street>
             <City>Homestead</City>
@@ -40,10 +40,10 @@
         </Address>
     </NationalPark>
 
-    <NationalPark Rating="4.9" NearestAirport="McGhee Tyson Airport (TYS)">
+    <NationalPark Rating="4.9">
         <Name>Great Smoky Mountains National Park</Name>
         <Phone>865-436-1200</Phone>
-        <Address>
+        <Address NearestAirport="McGhee Tyson Airport (TYS)">
             <Number>107</Number>
             <Street>Park Headquarters Road</Street>
             <City>Gatlinburg</City>
@@ -52,10 +52,10 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="Columbia Metropolitan Airport (CAE)">
+    <NationalPark>
         <Name>Congaree National Park</Name>
         <Phone>803-776-4396</Phone>
-        <Address>
+        <Address NearestAirport="Columbia Metropolitan Airport (CAE)">
             <Number>100</Number>
             <Street>National Park Road</Street>
             <City>Hopkins</City>
@@ -64,11 +64,11 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="Shenandoah Valley Regional Airport (SHD)">
+    <NationalPark>
         <Name>Shenandoah National Park</Name>
         <Phone>540-999-3500</Phone>
         <Phone>800-732-0911</Phone>
-        <Address>
+        <Address NearestAirport="Shenandoah Valley Regional Airport (SHD)">
             <Number>3655</Number>
             <Street>US Highway 211 East</Street>
             <City>Luray</City>
@@ -77,10 +77,10 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="Louisville Muhammad Ali International Airport (SDF)">
+    <NationalPark>
         <Name>Mammoth Cave National Park</Name>
         <Phone>270-758-2180</Phone>
-        <Address>
+        <Address NearestAirport="Louisville Muhammad Ali International Airport (SDF)">
             <Number>1</Number>
             <Street>Mammoth Cave Parkway</Street>
             <City>Mammoth Cave</City>
@@ -89,12 +89,12 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="Yeager Airport (CRW)">
+    <NationalPark>
         <Name>New River Gorge National Park and Preserve</Name>
         <Phone>304-465-0508</Phone>
         <Phone>304-574-2115</Phone>
         <Phone>304-466-0417</Phone>
-        <Address>
+        <Address NearestAirport="Yeager Airport (CRW)">
             <Number>104</Number>
             <Street>Main Street</Street>
             <City>Glen Jean</City>
@@ -103,11 +103,11 @@
         </Address>
     </NationalPark>
 
-    <NationalPark Rating="4.8" NearestAirport="Hancock County-Bar Harbor Airport (BHB)">
+    <NationalPark Rating="4.8">
         <Name>Acadia National Park</Name>
         <Phone>207-288-3338</Phone>
         <Phone>207-288-8800</Phone>
-        <Address>
+        <Address NearestAirport="Hancock County-Bar Harbor Airport (BHB)">
             <Number>25</Number>
             <Street>Visitor Center Road</Street>
             <City>Bar Harbor</City>
@@ -116,15 +116,29 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="Cleveland Hopkins International Airport (CLE)">
+    <NationalPark>
         <Name>Cuyahoga Valley National Park</Name>
         <Phone>440-717-3890</Phone>
-        <Address>
+        <Address NearestAirport="Cleveland Hopkins International Airport (CLE)">
             <Number>15610</Number>
             <Street>Vaughn Road</Street>
             <City>Brecksville</City>
             <State>OH</State>
             <Zip>44141</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.9">
+        <Name>Grand Canyon</Name>
+        <Phone>928-638-7496</Phone>
+        <Phone>888-297-2757</Phone>
+        <Phone>866-499-2574</Phone>
+        <Address NearestAirport="FlagStaff">
+            <Number>8</Number>
+            <Street>S Entrance Road</Street>
+            <City>Grand Canyon</City>
+            <State>AZ</State>
+            <Zip>86023</Zip>
         </Address>
     </NationalPark>
 
