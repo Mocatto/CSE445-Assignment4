@@ -3,7 +3,7 @@
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="NationalParks.xsd">
 
-    <NationalPark NearestAirport="Miami International Airport (MIA)">
+    <NationalPark Rating="4.8" NearestAirport="Miami International Airport (MIA)">
         <Name>Everglades National Park</Name>
         <Phone>305-242-7700</Phone>
         <Phone>786-758-0635</Phone>
@@ -16,7 +16,7 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="Miami International Airport (MIA)">
+    <NationalPark Rating="4.7" NearestAirport="Miami International Airport (MIA)">
         <Name>Biscayne National Park</Name>
         <Phone>786-335-3620</Phone>
         <Address>
@@ -40,7 +40,7 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="McGhee Tyson Airport (TYS)">
+    <NationalPark Rating="4.9" NearestAirport="McGhee Tyson Airport (TYS)">
         <Name>Great Smoky Mountains National Park</Name>
         <Phone>865-436-1200</Phone>
         <Address>
@@ -103,7 +103,7 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="Hancock County-Bar Harbor Airport (BHB)">
+    <NationalPark Rating="4.8" NearestAirport="Hancock County-Bar Harbor Airport (BHB)">
         <Name>Acadia National Park</Name>
         <Phone>207-288-3338</Phone>
         <Phone>207-288-8800</Phone>
