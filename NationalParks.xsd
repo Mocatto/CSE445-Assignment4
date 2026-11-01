@@ -1,62 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="NationalParks.xsd">
 
-    <xs:element name="NationalParks">
-        <xs:complexType>
-            <xs:sequence>
+    <NationalPark Rating="4.8" NearestAirport="Miami International Airport (MIA)">
+        <Name>Everglades National Park</Name>
+        <Phone>305-242-7700</Phone>
+        <Phone>786-758-0635</Phone>
+        <Address>
+            <Number>40001</Number>
+            <Street>State Road 9336</Street>
+            <City>Homestead</City>
+            <State>FL</State>
+            <Zip>33034</Zip>
+        </Address>
+    </NationalPark>
 
-                <xs:element name="NationalPark"
-                    minOccurs="1" maxOccurs="unbounded">
+    <NationalPark Rating="4.7" NearestAirport="Miami International Airport (MIA)">
+        <Name>Biscayne National Park</Name>
+        <Phone>786-335-3620</Phone>
+        <Address>
+            <Number>9700</Number>
+            <Street>SW 328th Street, Sir Lancelot Jones Way</Street>
+            <City>Homestead</City>
+            <State>FL</State>
+            <Zip>33033</Zip>
+        </Address>
+    </NationalPark>
 
-                    <xs:complexType>
-                        <xs:sequence>
+    <NationalPark NearestAirport="Key West International Airport (EYW)">
+        <Name>Dry Tortugas National Park</Name>
+        <Phone>305-242-7700</Phone>
+        <Address>
+            <Number>40001</Number>
+            <Street>State Road 9336</Street>
+            <City>Homestead</City>
+            <State>FL</State>
+            <Zip>33034</Zip>
+        </Address>
+    </NationalPark>
 
-                            <xs:element name="Name" type="xs:string"/>
+    <NationalPark Rating="4.9" NearestAirport="McGhee Tyson Airport (TYS)">
+        <Name>Great Smoky Mountains National Park</Name>
+        <Phone>865-436-1200</Phone>
+        <Address>
+            <Number>107</Number>
+            <Street>Park Headquarters Road</Street>
+            <City>Gatlinburg</City>
+            <State>TN</State>
+            <Zip>37738</Zip>
+        </Address>
+    </NationalPark>
 
-                            <xs:element name="Phone"
-                                type="xs:string"
-                                minOccurs="1"
-                                maxOccurs="unbounded"/>
+    <NationalPark NearestAirport="Columbia Metropolitan Airport (CAE)">
+        <Name>Congaree National Park</Name>
+        <Phone>803-776-4396</Phone>
+        <Address>
+            <Number>100</Number>
+            <Street>National Park Road</Street>
+            <City>Hopkins</City>
+            <State>SC</State>
+            <Zip>29061</Zip>
+        </Address>
+    </NationalPark>
 
-                            <xs:element name="Address">
-                                <xs:complexType>
-                                    <xs:sequence>
+    <NationalPark NearestAirport="Shenandoah Valley Regional Airport (SHD)">
+        <Name>Shenandoah National Park</Name>
+        <Phone>540-999-3500</Phone>
+        <Phone>800-732-0911</Phone>
+        <Address>
+            <Number>3655</Number>
+            <Street>US Highway 211 East</Street>
+            <City>Luray</City>
+            <State>VA</State>
+            <Zip>22835</Zip>
+        </Address>
+    </NationalPark>
 
-                                        <xs:element name="Number"
-                                            type="xs:string"/>
+    <NationalPark NearestAirport="Louisville Muhammad Ali International Airport (SDF)">
+        <Name>Mammoth Cave National Park</Name>
+        <Phone>270-758-2180</Phone>
+        <Address>
+            <Number>1</Number>
+            <Street>Mammoth Cave Parkway</Street>
+            <City>Mammoth Cave</City>
+            <State>KY</State>
+            <Zip>42259</Zip>
+        </Address>
+    </NationalPark>
 
-                                        <xs:element name="Street"
-                                            type="xs:string"/>
+    <NationalPark NearestAirport="Yeager Airport (CRW)">
+        <Name>New River Gorge National Park and Preserve</Name>
+        <Phone>304-465-0508</Phone>
+        <Phone>304-574-2115</Phone>
+        <Phone>304-466-0417</Phone>
+        <Address>
+            <Number>104</Number>
+            <Street>Main Street</Street>
+            <City>Glen Jean</City>
+            <State>WV</State>
+            <Zip>25846</Zip>
+        </Address>
+    </NationalPark>
 
-                                        <xs:element name="City"
-                                            type="xs:string"/>
+    <NationalPark Rating="4.8" NearestAirport="Hancock County-Bar Harbor Airport (BHB)">
+        <Name>Acadia National Park</Name>
+        <Phone>207-288-3338</Phone>
+        <Phone>207-288-8800</Phone>
+        <Address>
+            <Number>25</Number>
+            <Street>Visitor Center Road</Street>
+            <City>Bar Harbor</City>
+            <State>ME</State>
+            <Zip>04609</Zip>
+        </Address>
+    </NationalPark>
 
-                                        <xs:element name="State"
-                                            type="xs:string"/>
+    <NationalPark NearestAirport="Cleveland Hopkins International Airport (CLE)">
+        <Name>Cuyahoga Valley National Park</Name>
+        <Phone>440-717-3890</Phone>
+        <Address>
+            <Number>15610</Number>
+            <Street>Vaughn Road</Street>
+            <City>Brecksville</City>
+            <State>OH</State>
+            <Zip>44141</Zip>
+        </Address>
+    </NationalPark>
 
-                                        <xs:element name="Zip"
-                                            type="xs:string"/>
-
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-
-                        </xs:sequence>
-
-                        <xs:attribute name="Rating"
-                            type="xs:decimal"
-                            use="optional"/>
-
-                        <xs:attribute name="NearestAirport"
-                            type="xs:string"
-                            use="required"/>
-
-                    </xs:complexType>
-                </xs:element>
-
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-</xs:schema>
+</NationalParks>
