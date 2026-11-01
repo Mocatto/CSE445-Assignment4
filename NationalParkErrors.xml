@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="NationalParks.xsd">
 
     <NationalPark NearestAirport="Miami International Airport (MIA)">
@@ -54,7 +54,6 @@
 
     <NationalPark NearestAirport="Columbia Metropolitan Airport (CAE)">
         <Name>Congaree National Park</Name>
-        <Phone>803-776-4396</Phone>
         <Address>
             <Number>100</Number>
             <Street>National Park Road</Street>
@@ -79,6 +78,7 @@
 
     <NationalPark NearestAirport="Louisville Muhammad Ali International Airport (SDF)">
         <Name>Mammoth Cave National Park</Name>
+        <Name>Mammoth Cave</Name>
         <Phone>270-758-2180</Phone>
         <Address>
             <Number>1</Number>
@@ -103,7 +103,7 @@
         </Address>
     </NationalPark>
 
-    <NationalPark NearestAirport="Hancock County-Bar Harbor Airport (BHB)">
+    <NationalPark>
         <Name>Acadia National Park</Name>
         <Phone>207-288-3338</Phone>
         <Phone>207-288-8800</Phone>
@@ -125,7 +125,6 @@
             <City>Brecksville</City>
             <State>OH</State>
             <Zip>44141</Zip>
-        </Address>
     </NationalPark>
 
-</NationalParks>
+</NationalPark>
